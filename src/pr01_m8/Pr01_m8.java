@@ -14,6 +14,8 @@ public class Pr01_m8 {
         File f = new File("fitxer.html");
 
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(f))) {
+            
+            System.out.println("ESTO ES PARA UNA PRUEBA DE MODIFICACIÓN");
             bw.write("<html>");
             bw.newLine();
             bw.write(" <head>");
